@@ -5,7 +5,7 @@ body {
   margin: 0;
   overflow: hidden;
   background-color: #101E24; /* was #2196f3 */
-  color: black;
+  color: #E1E1E1; /* black */
 }
 
 * {
@@ -40,7 +40,7 @@ header footer {
 /* div {background-color: green;} */
 div a {
   text-decoration: none;
-  color: white;
+  color: #E1E1E1; /* was white */
   padding: 5px;
   display:inline-block;
 }
