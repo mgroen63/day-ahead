@@ -1,6 +1,16 @@
 # Changelog 刀 DAO
 # Day Ahead Optimizer
 
+# [V2025.1.0] 
+- Fixed error saving prognoses with postgresql database
+- Fixed error getting history consumption data: also data in ha-db are taken in account
+- Optimum low level for the battery is back again
+- When choosen for strategy "minimize consumption", there was sometimes "no solution",
+this is corrected
+
+# [V2024.12.3] 
+Fixed error getting battery limits when no battery is configured
+
 # [V2024.12.2] 
 Fixed typo in utils.py
 
@@ -58,8 +68,6 @@ by heatpump". This setting can be "True" or "False"
   - calculated power
 - When setting a state of an entity failed then an error message is written in the log 
   (name of the entity, new failed value)
-
-
 
 ## [V2024.11.1]
 - Fixed an error when getting Tibber-data when using a Tibber pulse: 
